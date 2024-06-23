@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RogerGym - The best fitness gym in the town</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="utils.css">
+</head>
+<body class='overflow-x-hidden'>
+    <div class="container mx-auto">
+        <header>
+            <nav class="flex justify-between">
+                <div class="logo font-bold flex items-center text-blue"> <img class="dumbellimghead" src="dumbell.png" alt="">RogerGym</div>
+                <ul class="navbar flex items-center">
+                    <li><a href="index.html">Home</li></a>
+                    <li>About</li>
+                    <li>Services</li>
+                    <li>Contact Us</li>
+                    <li><button class="btn">Join Now</button></li>
+                </ul>
+            </nav>
+            <hr>
+        </header>
+    </div>
+    <main class="min-h-screen">
+        <section>
+        <h2>Our Contact Form</h2>
+        <form action="https://httpbin.org/get" method="get">
+            <fieldset>
+                <legend>Send us a Message</legend>
+                <p>
+                    <label for="name">Name:</label>
+                    <input type="text" name="name" id="name" placeholder="your name" required>
+                </p>
+                <p>
+                    <label for="email">Email:</label>
+                    <input type="email" name="email" id="email" placeholder="your email" required>
+                </p>
+                <p>
+                    <label for="message">Your Message:</label><br>
+                    <textarea name="message" id="message" cols="205" rows="10"></textarea>
+                </p>
+
+            </fieldset>
+            <button type="submit" >Submit</button>
+            <button type="reset">Reset</button>
+        </form>
+    </section>
+    <section>
+        <h2>Our Location</h2>
+        <address>
+            111 XYZ Street, ABC<br>
+            DEF city, 4435383
+            <br><br>
+            Phone: <a href="tel: 849382392892">849382392892</a>
+        </address>
+    </section>
+    </main>
+</body>
+</html>
